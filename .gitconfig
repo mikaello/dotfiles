@@ -1,0 +1,13 @@
+[branch]
+  autosetuprebase = always
+[push]
+  default = current
+[user]
+  name = mikaello
+  email = 2505178+mikaello@users.noreply.github.com
+[core]
+  editor = vim
+[alias]
+  dc = diff --cached
+  up = pull --rebase --autostash
+  ch = checkout
