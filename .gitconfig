@@ -11,3 +11,5 @@
   dc = diff --cached
   up = pull --rebase --autostash
   ch = checkout
+  com = !git checkout main || git checkout master
+  ca  = commit --amend --no-edit
